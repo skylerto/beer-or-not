@@ -7,9 +7,9 @@
 3 info using node@v5.7.1
 4 verbose publish [ './' ]
 5 verbose stack Error: Failed to parse json
-5 verbose stack Unexpected token 'b' at 9:3
-5 verbose stack   bin {
-5 verbose stack   ^
+5 verbose stack Unexpected token '{' at 9:9
+5 verbose stack   "bin" {
+5 verbose stack         ^
 5 verbose stack     at parseError (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:379:11)
 5 verbose stack     at parseJson (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:68:23)
 5 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:48:5
@@ -24,9 +24,9 @@
 11 error file /Users/sky/Dropbox/dev/javascript/beer-or-not/package.json
 12 error code EJSONPARSE
 13 error Failed to parse json
-13 error Unexpected token 'b' at 9:3
-13 error   bin {
-13 error   ^
+13 error Unexpected token '{' at 9:9
+13 error   "bin" {
+13 error         ^
 14 error File: /Users/sky/Dropbox/dev/javascript/beer-or-not/package.json
 15 error Failed to parse package.json data.
 15 error package.json must be actual JSON, not just JavaScript.

@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin" {
+  "bin": {
     "beer": "index.js"
   },
   "author": "Skyler Layne <skylerclayne@gmail.com> (http://www.skylerlayne.me)",
